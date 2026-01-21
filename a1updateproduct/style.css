@@ -1,0 +1,48 @@
+
+
+
+.hplap{
+height: 200px;
+}
+.main-body{
+    background-image: url("resources/assignment\ 1img1.jpg");
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.li{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: small;
+    color: blanchedalmond;
+}
+
+.i11{
+    background-size: contain;
+    background-image: url("resources/iphone11promax.jfif");
+    background-position: center;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand-Medium.ttf");
+}
+@font-face {
+    font-family: "Honey";
+    src: url("fonts/HoneyScript-Light.ttf");
+}
+.title{
+    font-family: "Honey";
+    font-weight: bolder;
+    font-size: 100px;
+    color: firebrick;
+    text-align: center;
+}
+
+.p1{
+    font-weight: bolder;
+    font-family: "Quicksand";
+    font-size: large;
+    
+}
