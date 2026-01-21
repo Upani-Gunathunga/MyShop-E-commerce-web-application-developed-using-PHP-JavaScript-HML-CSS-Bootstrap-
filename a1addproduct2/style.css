@@ -1,0 +1,18 @@
+
+
+
+
+
+.main-body{
+    background-image: url("resources/assignment\ 1img1.jpg");
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.li{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: small;
+    color: blanchedalmond;
+}
+

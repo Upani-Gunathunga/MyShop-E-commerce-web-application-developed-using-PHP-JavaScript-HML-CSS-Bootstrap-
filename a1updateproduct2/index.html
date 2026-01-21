@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="resources/newtech logo.png" />
+  <title>New Tech</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="bootstrap.css">
+
+
+</head>
+
+<body class="main-body overflow-x-hidden">
+  <div class="w-100 container-fluid">
+    <!--blank div start-->
+    <div style="height: 125px;"></div>
+    <!--blank div end-->
+    <!--nav bar start-->
+    <div class="container-fluid w-100  col-12 fixed-top">
+      <ul class="nav nav-tabs bg-danger-subtle text-light-emphasis">
+        <li></li>
+        <img src="resources/newtech logo.png" style="height: 30px;">
+        <h5 class="align-content-end text-danger">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+            class="bi bi-person-square alert-danger" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path
+              d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z" />
+          </svg>
+          HI! UPANI(ADMIN)
+
+        </h5>
+        <li></li>
+        <li class="nav-item  text-decoration-none">
+          <a class="nav-link " aria-current="page" href="http://localhost/a1adminhome/">HOME PAGE</a>
+        </li>
+        <li class="nav-item  text-decoration-none">
+          <a class="nav-link " href="http://localhost/a1adminsignin/">ADMIN SIGN IN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost/a1adminpanel/">ADMIN PANEL</a>
+        </li>
+        <li class="nav-item dropdown  text-decoration-none">
+          <a class="nav-link dropdown-toggle text-decoration-none " data-bs-toggle="dropdown" href="#" role="button"
+            aria-expanded="false">MANAGE</a>
+          <ul class="dropdown-menu">
+
+            <li><a class="dropdown-item text-decoration-none" href="http://localhost/a1productmanage/">MANAGE
+                PRODUCTS</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item text-decoration-none" href="http://localhost/a1usermanage/">MANAGE USERS</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-danger" href="http://localhost/a1customerhome/">
+            <span class="badge bg-secondary">GO BACK TO WELCOME PAGE</span></a>
+        </li>
+
+
+
+
+      </ul>
+
+
+
+    </div>
+    <!--nav bar ends-->
+    <div class="row">
+
+      <!-- PAGE START-->
+      <div class="col-12 col-lg-10 offset-lg-1  mt-5">
+        <h1 class="text-danger-emphasis text-center">Update product details</h1>
+        <form class="p-3 g-2">
+          <div class="col-12">
+            <label class="form-label">Product Name</label>
+            <input class="form-control" type="text" placeholder="type product name">
+          </div>
+          <br>
+          <div class="input-group col-12">
+            <span class="input-group-text">Brand and Version</span>
+            <input type="text" aria-label="Brand" class="form-control" placeholder="Brand">
+            <input type="text" aria-label="Version" class="form-control" placeholder="Version">
+          </div>
+          <br>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Warranty Period</span>
+            <button class="btn btn-outline-danger">+</button>
+            <input type="text" class="form-control" placeholder="Quantity" aria-describedby="basic-addon1">
+            <button class="btn btn-outline-danger">-</button>
+          </div>
+          <div class="col-12">
+            <label class="form-label">Inventory</label>
+            <input class="form-control" type="text" placeholder="How much in the stock">
+          </div>
+          <div class="col-12">
+            <label class="form-label">Select Category</label>
+            <select class="form-select" id="inputGroupSelect04" aria-placeholder="bh">
+              <option selected>All</option>
+              <option value="1">Laptops</option>
+              <option value="2">Phones</option>
+              <option value="3">Gaming</option>
+              <option value="4">Internet connection</option>
+              <option value="5">Digital Watches</option>
+              <option value="6">Gadgets</option>
+
+            </select>
+
+          </div>
+          <div class="col-12">
+            <label class="form-label">Add an image of this product</label>
+            <div class="input-group mb-3">
+              <input type="file" class="form-control" id="inputGroupFile02">
+              <label class="input-group-text" for="inputGroupFile02">Upload</label>
+            </div>
+
+          </div>
+          <div class="col-12">
+            <label class="form-label">Unit Price</label>
+            <div class="input-group mb-3">
+              <span class="input-group-text">Rs.</span>
+              <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+              <span class="input-group-text">0.00</span>
+
+            </div>
+            <div class="col-12">
+              <label class="form-label">Status</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Approved
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Unapproved
+                </label>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Visibility</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Public
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Private
+                  </label>
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Product Description</label>
+                  <div class="form-floating">
+
+                    <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">about product.....</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <label for="exampleColorInput" class="form-label">Pick Color of the Device</label>
+                  <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c"
+                    title="Choose your color">
+
+                </div>
+                <div class="col-12">
+                  <label for="customRange1" class="form-label">Seller's recommendation</label>
+                  <input type="range" class="form-range" id="customRange1">
+                </div>
+                <br>
+                <p><a href="#">Clear Form</a></p>
+                <br>
+                <div class="col-12">
+                  <button class="btn btn-danger">Edit Deatils</button>
+
+                </div>
+
+
+
+              </div>
+
+
+            </div>
+
+
+
+
+        </form>
+
+
+      </div>
+      <!-- PAGE END-->
+      <!--FOOTER START-->
+      <footer>
+        <div class="col-12 align-bottom justify-content-center d-flex" style="background-color: brown;">
+          <div class="row">
+            <div class="col-12 align-items-center d-flex">
+              <div class="col-md-4 col-12">
+                <ul>
+                  <li class="list-unstyled mb-2"><a href="#" class="li">About Us</a></li>
+                  <li class="list-unstyled mb-2"><a href="#" class="li">Our policies</a></li>
+                  <li class="list-unstyled mb-2"><a href="#" class="li">Help and Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-12">
+                <ul>
+                  <li class="list-unstyled mb-2"><a href="#" class="li">About Us</a></li>
+                  <li class="list-unstyled mb-2"><a href="#" class="li">Our policies</a></li>
+                  <li class="list-unstyled mb-2"><a href="#" class="li">Help and Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-12">
+                <ul>
+                  <li class="list-unstyled mb-2"><a href="#" class="li">About Us</a></li>
+                  <li class="list-unstyled mb-2"><a href="#" class="li">Our policies</a></li>
+                  <li class="list-unstyled mb-2"><a href="#" class="li">Help and Contact</a></li>
+                </ul>
+              </div>
+
+            </div>
+            <div class="col-12">
+              <p class="text-center">&copy; 2023 New Tech || All Rights Reserved
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </footer>
+      <!--FOOTER ENDS-->
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+  </div>
+</body>
+
+</html>
