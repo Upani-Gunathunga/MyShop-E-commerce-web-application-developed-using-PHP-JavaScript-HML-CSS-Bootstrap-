@@ -1,0 +1,25 @@
+
+
+
+.hplap{
+height: 200px;
+}
+.li{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: small;
+    color: blanchedalmond;
+}
+.main-body{
+    background-image: url("resources/assignment\ 1img1.jpg");
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-text{
+    font-family: cursive;
+    font-size: large;
+    color: rgb(174, 96, 96);
+}
+

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="resources/newtech logo.png" />
+  <title>New Tech</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="bootstrap.css">
+
+
+</head>
+
+<body class="main-body overflow-x-hidden">
+  <div class="w-100 container-fluid">
+    <!--blank div start-->
+    <div style="height: 200px;"></div>
+    <!--blank div end-->
+    <!--nav bar start-->
+    <div class="container-fluid w-100  col-12">
+      <nav class="navbar bg-body-tertiary fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="#">
+            <img src="resources/newtech logo.png" alt="Logo" height="34" class="d-inline-block align-text-top">
+            Best Quality Electronic items
+          </a>
+          &nbsp; &nbsp;
+
+
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-danger" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg>
+            </button>
+          </form>
+
+          <a href="http://localhost/a1advancesearch/">Advanced Search</a>
+          <ul class="nav">
+
+            <li class="nav-item">
+              <div class="btn-group" role="group" aria-label="Default button group">
+                <button type="button" class="btn btn-outline-danger"><a href="http://localhost/a1customerregister/"
+                    class="btn btn-danger">Log In</a></button>
+                <button type="button" class="btn btn-outline-danger"><a href="http://localhost/a1customerlogin/"
+                    class="btn btn-danger">Register</a></button>
+
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="
+              http://localhost/a1customerhome/
+              ">Home Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="http://localhost/a1adminhome/">ADMIN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="http://localhost/a1watchlist/">Watchlist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost/a1cart/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>Cart
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                  <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                </svg>Hi, Upani
+              </a>
+            </li>
+          </ul>
+
+
+        </div>
+
+      </nav>
+
+
+
+    </div>
+    <!--nav bar ends-->
+    <div class="row">
+
+      <!--content PAGE START-->
+      <h1 class="text-center text-opacity-25 text-danger-emphasis ">My Watchlist</h1>
+      <div class="col-12 justify-content-center d-flex">
+
+        <div class="input-group mb-3">
+          <select class="form-select" id="inputGroupSelect04" aria-placeholder="bh">
+            <option selected>All</option>
+            <option value="1">Laptops</option>
+            <option value="2">Phones</option>
+            <option value="3">Gaming</option>
+            <option value="4">Internet connection</option>
+            <option value="5">Digital Watches</option>
+            <option value="6">Gadgets</option>
+
+          </select>
+          <input type="text" class="form-control" placeholder="search in watchlist">
+          <button class="btn btn-outline-danger" type="button">Search</button>
+        </div>
+
+
+
+      </div>
+      <div class="col-12 ">
+        <div class="row justify-content-center d-flex">
+          <div class="card mb-3 w-75 bg-dark border-danger p-2 col-12 bg-opacity-10">
+            <div class="row g-0">
+              <div class="col-md-4 justify-content-center d-flex">
+                <img src="resources/hp lap 1.webp" class="img-fluid rounded-start">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <div class="col-12">
+
+                    <h5 class="card-title" style="color: moccasin;">HP Laptop</h5>
+                    <p class="card-text ">
+                      color: black<br>condition: brand new<br>Price: Rs. 200,000.00<br>20 in Stock
+                    </p>
+                    <p class="card-text"><small class="text-body-secondary">Last view 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+
+
+              <button class="btn btn-success col-12 col-md-3">Buy Now</button>
+              <button class="btn btn-primary col-12 col-md-4 offset-md-1">Add to cart</button>
+              <button class="btn btn-danger col-12 col-md-3 offset-md-1">Remove</button>
+
+
+            </div>
+          </div>
+          <div class="card mb-3 w-75 bg-dark border-danger p-2 col-12 bg-opacity-75">
+            <div class="row g-0">
+              <div class="col-md-4 justify-content-center d-flex">
+                <img src="resources/iphone11promax.jfif" class="img-fluid rounded-start">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <div class="col-12">
+
+                    <h5 class="card-title" style="color: moccasin;">iPhone 11 Pro Max</h5>
+                    <p class="card-text ">
+                      color: gold<br>condition: used<br>Price: Rs. 50,000.00<br>4 in Stock
+                    </p>
+                    <p class="card-text"><small class="text-body-secondary">Last view few seconds ago</small></p>
+                  </div>
+                </div>
+              </div>
+
+
+              <button class="btn btn-success col-12 col-md-3">Buy Now</button>
+              <button class="btn btn-primary col-12 col-md-4 offset-md-1">Add to cart</button>
+              <button class="btn btn-danger col-12 col-md-3 offset-md-1">Remove</button>
+
+
+            </div>
+          </div>
+          <div class="card mb-3 w-75 bg-dark border-danger p-2 col-12 bg-opacity-10">
+            <div class="row g-0">
+              <div class="col-md-4 justify-content-center d-flex">
+                <img src="resources/hplap2.jfif" class="img-fluid rounded-start">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <div class="col-12">
+
+                    <h5 class="card-title" style="color: moccasin;">HP Laptop</h5>
+                    <p class="card-text ">
+                      color: white<br>condition: brand new<br>Price: Rs. 200,000.00<br>10 in Stock
+                    </p>
+                    <p class="card-text"><small class="text-body-secondary">Last view3 days ago</small></p>
+                  </div>
+                </div>
+              </div>
+
+
+              <button class="btn btn-success col-12 col-md-3">Buy Now</button>
+              <button class="btn btn-primary col-12 col-md-4 offset-md-1">Add to cart</button>
+              <button class="btn btn-danger col-12 col-md-3 offset-md-1">Remove</button>
+
+
+            </div>
+          </div>
+          <a class="btn btn-dark col-12 mt-3 " href="http://localhost/a1purchasehistory/">Click here to see your purchase and order history</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--HOME PAGE END-->
+  <!--FOOTER START-->
+  <footer>
+    <div class="col-12 align-bottom justify-content-center d-flex" style="background-color: brown;">
+      <div class="row">
+        <div class="col-12 align-items-center d-flex">
+          <div class="col-md-4 col-12">
+            <ul>
+              <li class="list-unstyled mb-2"><a href="#" class="li">About Us</a></li>
+              <li class="list-unstyled mb-2"><a href="#" class="li">Our policies</a></li>
+              <li class="list-unstyled mb-2"><a href="#" class="li">Help and Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12">
+            <ul>
+              <li class="list-unstyled mb-2"><a href="#" class="li">Our branches</a></li>
+              <li class="list-unstyled mb-2"><a href="#" class="li">Service line</a></li>
+              <li class="list-unstyled mb-2"><a href="#" class="li">Comments</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12">
+            <ul>
+              <li class="list-unstyled mb-2"><a href="#" class="li">Location</a></li>
+              <li class="list-unstyled mb-2"><a href="#" class="li">Site Map</a></li>
+              <li class="list-unstyled mb-2"><a href="#" class="li">Download the mobile App</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="col-12">
+          <p class="text-center">&copy; 2023 New Tech || All Rights Reserved
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+  <!--FOOTER ENDS-->
+
+  </div>
+  </div>
+  <script src="script.js"></script>
+  </div>
+</body>
+
+</html>
