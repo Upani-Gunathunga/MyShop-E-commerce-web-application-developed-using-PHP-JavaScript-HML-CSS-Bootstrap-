@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="resources/newtech logo.png" />
+  <title>New Tech</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="bootstrap.css">
+
+</head>
+
+<body class="main-body overflow-x-auto">
+  <div class="container-fluid">
+    <!--blank div start-->
+    <div style="height: 200px;"></div>
+    <!--blank div end-->
+
+    <!--nav bar start-->
+    <div class="container-fluid w-100  col-12 fixed-top">
+      <ul class="nav nav-tabs bg-danger-subtle text-light-emphasis">
+        <li></li>
+        <img src="resources/newtech logo.png" style="height: 30px;">
+        <h5 class="align-content-end text-danger">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+            class="bi bi-person-square alert-danger" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path
+              d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z" />
+          </svg>
+          HI! UPANI(ADMIN)
+
+        </h5>
+        <li></li>
+        <li class="nav-item  text-decoration-none">
+          <a class="nav-link " aria-current="page" href="http://localhost/a1adminhome/">HOME PAGE</a>
+        </li>
+        <li class="nav-item  text-decoration-none">
+          <a class="nav-link " href="http://localhost/a1adminsignin/">ADMIN SIGN IN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost/a1adminpanel/">ADMIN PANEL</a>
+        </li>
+        <li class="nav-item dropdown  text-decoration-none">
+          <a class="nav-link dropdown-toggle text-decoration-none active" data-bs-toggle="dropdown" href="#"
+            role="button" aria-expanded="false">MANAGE</a>
+          <ul class="dropdown-menu">
+
+            <li><a class="dropdown-item text-decoration-none" href="http://localhost/a1productmanage/">MANAGE
+                PRODUCTS</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item text-decoration-none" href="http://localhost/a1usermanage/">MANAGE USERS</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-danger" href="http://localhost/a1customerhome/">
+            <span class="badge bg-secondary">GO BACK TO WELCOME PAGE</span></a>
+        </li>
+
+
+
+
+      </ul>
+
+
+
+    </div>
+    <!--nav bar ends-->
+    <!--main content start-->
+
+    <div class="row container-fluid justify-content-center align-items-center d-flex ">
+      <h1 class="text-danger-emphasis text-center">Product Manager</h1>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">Select Category</button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Laptop</a></li>
+          <li><a class="dropdown-item" href="#">Mobile Phones</a></li>
+          <li><a class="dropdown-item" href="#">Internet Connection</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">All</a></li>
+        </ul>
+
+
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">Select Status</button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Approved</a></li>
+          <li><a class="dropdown-item" href="#">Unapproved</a></li>
+
+          <li><a class="dropdown-item" href="#">All</a></li>
+        </ul>
+
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">Select Visibility</button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Public</a></li>
+          <li><a class="dropdown-item" href="#">Private</a></li>
+
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">All</a></li>
+        </ul>
+        <button class="btn btn-secondary " type="button">Search</button>
+      </div>
+      <div class="btn-group col-3" role="group" aria-label="Basic outlined example">
+        <button type="button" class="btn btn-outline-primary disabled">+</button>
+
+
+        <a href="http://localhost/a1addproduct2/"> <button type="button" class="btn btn-primary">Add Product</button></a>
+      </div>
+      <div class="btn-group col-3" role="group" aria-label="Basic outlined example">
+
+        <a href="#"> <button type="button" class="btn btn-primary">Import Orders</button></a>
+      </div>
+      <div class="col-12">
+        <table class="table table-striped table-responsive">
+          <thead>
+            <tr>
+              <th scope="col">Product ID</th>
+              <th scope="col">Product Name</th>
+              <th scope="col">Image</th>
+              <th scope="col">Unit Price</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Category</th>
+              <th scope="col">Status</th>
+              <th scope="col">Visibility</th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">#12</th>
+              <td>Hp Laptop</td>
+              <td><img src="resources/hplap2.jfif"></td>
+              <td>Rs.250,000.000</td>
+              <td>36 in stock</td>
+              <td>Laptop</td>
+              <td><span class="badge bg-warning">APPROVED</span></td>
+              <td><span class="badge bg-secondary">Public</span></td>
+              <td>
+                <button class="btn btn-outline-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                  </svg>Show</button>
+              </td>
+              <td>
+                <a class="btn btn-outline-success" href="http://localhost/a1updateproduct2/"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                    <path
+                      d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                    <path fill-rule="evenodd"
+                      d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+                  </svg>Edit</a>
+              </td>
+              <td>
+                <button class="btn btn-outline-dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                    <path
+                      d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z" />
+                  </svg></button>
+              </td>
+
+
+
+            </tr>
+            <tr>
+              <th scope="row">#1234</th>
+              <td>iPhone 11 Pro Max</td>
+              <td><img src="resources/iphone11promax.jfif"></td>
+              <td>Rs.250,000.000</td>
+              <td class="text-danger">Out of stock</td>
+              <td>Mobile Phone</td>
+              <td><span class="badge bg-danger">DISAPPROVED</span></td>
+              <td><span class="badge bg-secondary">Private</span></td>
+              <td>
+                <button class="btn btn-outline-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                  </svg>Show</button>
+              </td>
+              <td>
+                <a class="btn btn-outline-success" href="http://localhost/a1updateproduct2/"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                    <path
+                      d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                    <path fill-rule="evenodd"
+                      d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+                  </svg>Edit</a>
+              </td>
+              <td>
+                <button class="btn btn-outline-dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                    <path
+                      d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z" />
+                  </svg></button>
+              </td>
+
+
+
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!--main content end-->
+    <!--FOOTER START-->
+    <footer>
+      <div class="col-12 align-bottom justify-content-center d-flex " style="background-color: brown;">
+        <div class="row">
+          <div class="col-12 align-items-center d-flex">
+            <div class="col-md-4 col-12">
+              <ul>
+                <li class="list-unstyled mb-2"><a href="#" class="li">About Us</a></li>
+                <li class="list-unstyled mb-2"><a href="#" class="li">Our policies</a></li>
+                <li class="list-unstyled mb-2"><a href="#" class="li">Help and Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-12">
+              <ul>
+                <li class="list-unstyled mb-2"><a href="#" class="li">Our branches</a></li>
+                <li class="list-unstyled mb-2"><a href="#" class="li">Service line</a></li>
+                <li class="list-unstyled mb-2"><a href="#" class="li">Comments</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-12">
+              <ul>
+                <li class="list-unstyled mb-2"><a href="#" class="li">Location</a></li>
+                <li class="list-unstyled mb-2"><a href="#" class="li">Site Map</a></li>
+                <li class="list-unstyled mb-2"><a href="#" class="li">Download the mobile App</a></li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-12">
+            <p class="text-center">&copy; 2023 New Tech || All Rights Reserved
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </footer>
+    <!--FOOTER ENDS-->
+
+  </div>
+
+  <script src="script.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
