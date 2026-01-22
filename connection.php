@@ -8,7 +8,7 @@ class Database{
 
         if(!isset(Database::$connection)){
 
-            Database::$connection = new mysqli("localhost","root","jiBC@9009dbms","myshopproject","3306");
+            Database::$connection = new mysqli("localhost","root","password","myshopproject","port");
 
         }
     }
@@ -24,6 +24,7 @@ class Database{
         return $resultset;
     }
 }
+
 
 
 ?>
