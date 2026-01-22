@@ -25,7 +25,7 @@ if(isset($_POST["e"])){
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'u.a.gunathunga126@gmail.com';
-        $mail->Password = 'ccolckakinpvucnl';
+        $mail->Password = 'passsword';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
         $mail->setFrom('u.a.gunathunga126@gmail.com', 'Admin Verification');
@@ -49,3 +49,4 @@ if(isset($_POST["e"])){
 }else{
     echo ("Email field should not be empty.");
 }
+
