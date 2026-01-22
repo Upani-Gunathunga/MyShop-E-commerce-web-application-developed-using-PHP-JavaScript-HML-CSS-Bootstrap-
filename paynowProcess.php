@@ -54,8 +54,8 @@ if (isset($_SESSION["u"])) {
 
         $city = $district_data["city_name"];
 
-        $merchant_id = "1224144";
-        $merchant_secret = "MzIxNDU4Njg2MjQxNjkwNzEzMTY1NTM3Mjg5NDEzOTk3NzA4NTg=";
+        $merchant_id = "id";
+        $merchant_secret = "secret";
         $currency = "LKR";
 
         $hash = strtoupper(
@@ -84,3 +84,4 @@ if (isset($_SESSION["u"])) {
         echo ("address error");
     }
 }
+
