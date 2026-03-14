@@ -5,7 +5,9 @@ Web App
 
 # 🚀 NewTech – Full-Stack E-Commerce Web Application
 
-![NewTech Banner](your-banner-image-or-gif-here.gif)
+
+
+![NewTech Banner](Documentation/Welcome_to_NewTech.png)
 
 ## 📌 Project Overview
 
@@ -133,24 +135,7 @@ The architecture demonstrates real-world separation of concerns and scalable des
 
 ## 🎥 Demo
 
-> (Insert GIF here showing: login → browse → add to cart → checkout → invoice)
-
-Example section:
-
-```markdown
-## 🎬 System Demo
-
-![NewTech Demo](demo.gif)
-```
-
-You can also add:
-
-* Homepage screenshot
-* Admin dashboard screenshot
-* Product page screenshot
-* Invoice preview
-
----
+![NewTech Banner](Documentation/New_Tech_AdminPanel.png)
 
 ## 💡 What This Project Demonstrates
 
